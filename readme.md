@@ -25,7 +25,6 @@
 
     // make the call!
     let info = await bouncer.interrogate(
-        data.yourAppKey,
         data.eventType,
         data.userId,
         data.yourPublicKey
