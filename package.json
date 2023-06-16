@@ -1,0 +1,25 @@
+{
+  "name": "bouncer",
+  "version": "1.0.0",
+  "description": "Fraud Prevention Suite",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keyri-Co/keyri-bouncer.git"
+  },
+  "keywords": [
+    "fraud-prevention",
+    "fraud",
+    "fingerprint",
+    "captcha"
+  ],
+  "author": "keyri-co",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keyri-Co/keyri-bouncer/issues"
+  },
+  "homepage": "https://github.com/Keyri-Co/keyri-bouncer#readme"
+}
