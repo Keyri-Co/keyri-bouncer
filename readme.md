@@ -23,15 +23,16 @@ import { Bouncer } from "keyri-bouncer";
 // Instantiate the library to load into shadow-dom
 const bouncer = new Bouncer();
 
+// Call the method with your eventType, userId, and your publicKey
 let info = await bouncer.interrogate(
     data.eventType, // The type of event: Login, Signup, Visits, Access
     data.userId, // The id of the user in your system
     data.yourPublicEcdhKey // This comes from our dashboard and is used to identify you and as an encryption key
 );
 
-  // Do something with your data
-  console.log({info});
-}
+// Do something useful with the data
+console.log({info});
+
 ```
 
 ## What Does It Return?
