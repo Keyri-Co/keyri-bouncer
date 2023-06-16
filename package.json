@@ -1,6 +1,6 @@
 {
   "name": "keyri-bouncer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fraud Prevention Suite",
   "main": "index.mjs",
   "scripts": {
